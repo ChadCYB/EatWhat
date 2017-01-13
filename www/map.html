@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="msapplication-tap-highlight" content="no" />
+    <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width" />
+		<!-- GoogleMap -->
+    <script src="js/jquery-3.1.1.min.js"></script>
+		<script src="http://maps.googleapis.com/maps/api/js?key=AIzaSyDWaszYHEkXRnVoiXh9zy55i-ORz-mBpfs" async defer></script>
+    <!-- Bootstrap -->
+		<script src="js/tether.min.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/animate.css">
+
+		<script src="js/global.js"></script>
+		<script src="js/map.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/global.css" />
+    <link rel="stylesheet" type="text/css" href="css/map.css" />
+    <title>EatWhat-Map</title>
+</head>
+<body>
+	<nav class="navbar navbar-fixed-top navbar-dark bg-inverse bg-faded">
+		<div id="back" class="fadeInRight animated"><a class="navbar-brand" href="javascript:window.history.back()"><i class="fa fa-chevron-left" aria-hidden="true"></i> Back</a></div>
+		<img src="img/icon.png" id="icon" class="rotateIn animated">
+	</nav>
+	<div class="container-fulid content zoomIn animated">
+		<div class="card">
+		  <h5 class="card-header" id="mytitle">店家</h5>
+			<div class="card-block">
+				<p class="card-title" id="mytitle"></p>
+				<p class="card-text">
+			    <p id="phone">電話</p>
+			    <p id="address">地址</p>
+				</p>
+			</div>
+		</div>
+	</div>
+	<div id="map" style="width:100%; height:300px;"></div>	
+	
+	
+	
+	<footer class="footer fadeInUp animated">
+		<p class="text-muted">Copyright © 2017 All rights reserved.</p>
+  </footer>
+</body>
+</html>

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="msapplication-tap-highlight" content="no" />
+    <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width" />
+    <meta http-equiv="Content-Security-Policy" content="default-src * 'unsafe-inline'; style-src 'self' 'unsafe-inline'; media-src *" />
+    <!-- Bootstrap -->
+    <script src="js/jquery-3.1.1.min.js"></script>
+		<script src="js/tether.min.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/animate.css">
+
+    <link rel="stylesheet" type="text/css" href="css/global.css" />
+    <link rel="stylesheet" type="text/css" href="css/index.css" />
+    <!-- <script type="text/javascript" src="cordova.js"></script> -->
+    <title>EatWhat</title>
+</head>
+
+<body>
+	<div class="container">
+		<div class="row rubberBand animated">
+			<h1 class="center title">今天ㄘ啥</h1>
+		</div>
+		<div class="row center">
+			<div id="food" class="bounceIn animated" onclick="window.location.href='eat.html';">
+        <div class="food-front"></div>
+      </div>
+		</div>
+		<div class="row center">
+			<div class="col-xs-6 col-sm-6">
+				<div id="drink" class="bounceInLeft animated" onclick="window.location.href='desert.html';">
+	        <div class="drink-front"></div>
+    		</div>
+			</div>
+			<div class="col-xs-6 col-sm-6">
+				<div id="cake" class="bounceInRight animated" onclick="window.location.href='drink.html';">
+					<div class="cake-front"></div>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+
+</html>

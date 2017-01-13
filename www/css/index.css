@@ -1,0 +1,86 @@
+body {
+		background: url("../img/bg_dark_h.jpg") no-repeat center center fixed; 
+		background-size: cover;
+}
+h1 {
+		color: white;
+}
+
+.title{
+    padding-top: 5%;
+    padding-bottom: 12%;
+    font-size: 4em;
+}
+
+/* food */
+#food {
+		width: 60%;
+		transform-style: preserve-3d;
+}
+#food .food-front, #food .food-back {
+		width: 250px;
+		height: 250px;
+}
+#food .food-front {
+		transform: translateZ(1px);
+		border-radius: 50%;
+		background-image: url("../img/icon.png");
+		background-size:contain;
+		background-repeat: no-repeat;
+}
+#food .food-back {
+		transform: translateZ(-1px) rotateY(180deg);
+		border-radius: 50%;
+		background-image: url("../img/iconback.png");
+		background-size:contain;
+		background-repeat: no-repeat;
+}
+
+/* drink */
+#drink {
+		position: relative;
+		width: 130px;
+		transform-style: preserve-3d;
+}
+#drink .drink-front, #drink .drink-back {
+		width: 140px;
+		height: 140px;
+}
+#drink .drink-front {
+		transform: translateZ(1px);
+		border-radius: 50%;
+		background-image: url("../img/wine.png");
+		background-size:contain;
+		background-repeat: no-repeat;
+}
+#drink .drink-back {
+		transform: translateZ(-1px) rotateY(180deg);
+		border-radius: 50%;
+		background-image: url("../img/wineback.png");
+		background-size:contain;
+		background-repeat: no-repeat;
+}
+/* cake */
+#cake {
+		width: 130px;
+		transform-style: preserve-3d;
+}
+#cake .cake-front, #cake .cake-back {
+		position: absolute;
+		width: 140px;
+		height: 140px;
+}
+#cake .cake-front {
+		transform: translateZ(1px);
+		border-radius: 50%;
+		background-image: url("../img/dessert.png");
+		background-size:contain;
+		background-repeat: no-repeat;
+}
+#cake .cake-back {
+		transform: translateZ(-1px) rotateY(180deg);
+		border-radius: 50%;
+		background-image: url("../img/dessertback.png");
+		background-size:contain;
+		background-repeat: no-repeat;
+}
